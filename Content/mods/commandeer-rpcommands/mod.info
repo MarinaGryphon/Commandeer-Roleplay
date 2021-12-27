@@ -1,0 +1,11 @@
+name=Commandeer - Roleplay Commands
+id=CommandeerRP
+poster=poster.png
+description=This mod adds a number of roleplay-oriented commands, using the Commandeer framework.
+description=
+description=The source is available at https://github.com/MarinaGryphon/Commandeer-Roleplay and is licensed under the Unlicense, making it under the public domain.
+description=
+description=This mod, and mods developed using Commandeer, shouldn't break due to updates as it doesn't overwrite any core game files.
+url=https://github.com/MarinaGryphon/Commandeer-Roleplay
+modversion=1
+pzversion=41.65
