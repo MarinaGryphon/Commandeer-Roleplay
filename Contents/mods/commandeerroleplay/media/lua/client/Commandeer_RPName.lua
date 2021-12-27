@@ -11,6 +11,9 @@ Commandeer_CommandHandler.commands["/name"] = function(param)
 		Commandeer_RPName.rpname = nil;
 		return "Roleplay name reset.";
 	end
+	if #param > 40 then
+		return "Your roleplay name must be less than 40 characters long."
+	end
 	Commandeer_RPName.rpname = param;
 	return string.format("Roleplay name updated to '%s'.", param)
 end
